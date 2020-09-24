@@ -1,0 +1,31 @@
+.searchPage__options {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+.searchPage__option {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 13px;
+}
+.searchPage__optionsLeft,
+.searchPage__optionsRight {
+  display: flex;
+}
+
+.searchPage__options a {
+  text-decoration: none;
+  color: gray;
+}
+.searchPage__optionsRight {
+  margin-left: 80px;
+}
+.searchPage__option a {
+  margin-left: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .searchPage__options {
+    display: none;
+  }
+}
